@@ -1,0 +1,164 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,400;8..144,500&family=Roboto+Slab:wght@300;400;500;600&family=Roboto:ital,wght@0,100;0,400;1,100;1,300;1,500;1,700;1,900&display=swap');
+
+*{
+    margin:0; padding:0; box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif ;
+}
+
+.espaco-logo{
+    width: 100%;
+    background-color: #b0ddfc ;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.img-logo{
+    width: 15%;
+   
+}
+
+
+.lista-navegacao-pai{
+    padding-bottom: 3%;
+}
+.lista-navegacao{
+    display: inline;
+    padding: 2%;
+    text-transform: uppercase;
+}
+.link-de-navegacao{
+    text-decoration: none;
+    color: black;
+}
+
+.link-de-navegacao:hover{
+    color:rgb(30, 29, 29);
+    font-weight: bold;
+}
+
+.espaco-banner{
+    width: 80vw;
+    height: 50wh;
+    margin: 30px auto;
+}
+
+.img-banner{
+    width: 100%;
+}
+
+.secao-apresentacao{
+    text-align: center;
+}
+
+.img-contrato, .img-corretor{
+    width: 50vw;
+   
+}
+
+.img-logo, .img-contrato, .img-corretor{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+h1{
+    font-size: 30px;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: normal;
+    padding: 1%
+}
+
+h3{
+    font-size: 25px;
+}
+
+p{
+    font-size: 18px;
+}
+
+.texto-destaque-principal{
+    color:#1d80c1;
+}
+
+span{
+    font-weight: bold;
+}
+
+.parte-em-destaque{
+    background-color: #1d80c1;
+    color: white;
+    line-height: 25px;
+}
+
+.lista-servico-pai{
+    display: inline-block;
+    text-align: justify;
+    padding-top: 2%;
+}
+
+.parte-em-destaque .paragrafo-simples{
+    padding: 2% 15%;
+}
+
+.texto-destaque-secundario{
+    color:#F0DE36;
+}
+
+.parte-em-destaque, .secao-corretores{
+
+    text-align: center;
+    margin-top: 2%;
+    padding: 4% 8%;
+
+}
+
+.secao-apresentacao p, .secao-corretores p{
+    padding: 0 15%;
+    margin-top: 2%;
+    text-align: justify;
+}
+
+.link-corretor{
+    text-decoration: none;
+    color: #1d80c1;
+}
+
+iframe{
+    width: 60vw;
+    height: 50vh;
+    margin-top: 2%;
+}
+
+.segunda-parte-em-destaque{
+   font-size: 20px;
+   margin-bottom: 20px;
+}
+
+.link-escritorio{
+    /* text-decoration: none; */
+    color: rgb(2, 19, 61);
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 5px;
+    text-transform: capitalize;
+}
+
+.link-escritorio:hover{
+    color: rgb(223, 247, 247);
+}
+
+.lista-escritorio{
+    margin-bottom: 2%;
+    display: inline;
+    padding-right: 10px;
+}
+
+
+
+
