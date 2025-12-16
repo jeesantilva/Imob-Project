@@ -9,16 +9,23 @@ body{
     font-family: 'Roboto', sans-serif ;
 }
 
+
 .espaco-logo{
-    width: 100%;
+    /* width: 100%; */
     background-color: #b0ddfc ;
     text-align: center;
     margin: 0px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .img-logo{
-    width: 15%;
+    width: 10%;
    
+}
+.lista-navegacao-pai{
+    display: flex;
 }
 
 
@@ -50,8 +57,13 @@ body{
     width: 100%;
 }
 
-.secao-apresentacao{
-    text-align: center;
+.conteiner-info{
+   
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    gap: 30px
 }
 
 .img-contrato, .img-corretor{
@@ -64,14 +76,22 @@ body{
     margin-bottom: 2%;
 }
 
+.img-contrato, .img-corretor{
+    width: 30%;
+    height: auto;
+    display: block;
+}
+
 h1{
     font-size: 30px;
+    text-align: center;
 }
 
 h2{
     font-size: 20px;
     font-weight: normal;
-    padding: 1%
+    padding: 1%;
+    text-align: center;
 }
 
 h3{
